@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+span,
+p,
+h1,
+h2,
+h3,
+h4,
+Link,
+a {
+  font-family: "Lusitana", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 40s linear infinite;
+}
+
+.drop-shadow {
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.background-image {
+  background-image: url('/images/background.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 458px;
+  position: absolute;
+  margin-bottom: 300px;
+  opacity: 70%;
+}
+
+@media (max-width: 600px) {
+  .background-image {
+    height: 392px;
+  }
+  .animate-scroll {
+    animation: scroll 15s linear infinite;
+  }
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  color: white;
+}
+
+.gradient-right {
+  background: linear-gradient(to right,
+      #5D5D5D,
+      #f9f9f9);
+}
+
+.lusitana-regular {
+  font-family: "Lusitana", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lusitana-bold {
+  font-family: "Lusitana", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.primary-color {
+  color: #5D5D5D;
+}
+
+.second-color {
+  color: #00D408;
+}
+
+.bg-second-color {
+  background-color: #00D408;
+}
+
+.bg-primary-color {
+  background-color: #5D5D5D;
+}
+
+.btn-primary {
+  padding: 2px;
+  background-color: #00D408;
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.btn-second {
+  padding: 2px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  color: #5D5D5D;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.custon-border {
+  border-bottom-width: 8px;
+  border-color: #5D5D5D;
+  border-style: solid;
+  position: relative;
+}
+
+.second-custon-border {
+  border-bottom-width: 5px;
+  border-radius: 5px;
+  border-color: #737373;
+  border-style: solid;
+  position: relative;
+}
+
+.thrid-custon-border {
+  border-bottom-width: 2px;
+  border-radius: 5px;
+  border-color: #737373;
+  border-style: solid;
+  position: relative;
+}
+
+.thrid-custon-border-r {
+  border-right: #737373;
+  border-radius: 5px;
+  border-style: solid;
+  position: relative;
+}
+
+.green-custon-border {
+  border-bottom-width: 5px;
+  border-radius: 5px;
+
+  border-color: #00D408;
+  border-style: solid;
+  position: relative;
+}
+
+.action-click {
+  margin-bottom: -8px;
+  background-color: #FFFFFF;
+}
