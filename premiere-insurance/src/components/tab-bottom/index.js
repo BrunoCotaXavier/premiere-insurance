@@ -46,7 +46,7 @@ export default function TabBottom() {
                     </Link>
                     <hr className="thrid-custon-border" />
                     <Link href="/contact" className="flex w-full justify-between">
-                        <p  className="p-1 text-15">Contact Us</p>
+                        <p className="p-1 text-15">Contact Us</p>
                         <img src="/images/icon-arrow.svg" />
                     </Link>
                     <hr className="thrid-custon-border" />
@@ -57,7 +57,7 @@ export default function TabBottom() {
                     <hr className="thrid-custon-border" />
                 </div>
             </div>
-            
+
             <div className="p-10 w-full">
                 <h1 className="text-30">Contact Us</h1>
                 <div className="flex">

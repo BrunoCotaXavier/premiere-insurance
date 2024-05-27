@@ -33,7 +33,7 @@ const Carousel = () => {
                 <div className="carousel overflow-hidden w-full">
                     <div className="carousel-track flex space-x-8 animate-scroll">
                         {logos.map((logo, index) => (
-                            <img  key={index} src={logo} className='sm:w-20 h-auto w-10' />
+                            <img key={index} src={logo} className='sm:w-20 h-auto w-10' />
                         ))}
                     </div>
                 </div>
