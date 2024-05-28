@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import Link from 'next/link';
+import PrimaryButton from "../primary-button";
 
 export default function Header() {
 
@@ -38,7 +39,7 @@ export default function Header() {
                 <div>
                     <h1 className="sm:text-50 text-25 text-white">PREMIERE INSURANCE</h1>
                     <h2 className="text-white pb-2">Serving the entire state of Massachusetts </h2>
-                    <Link href="/services" className="btn-primary lusitana-regular">REQUEST</Link>
+                    <PrimaryButton url={"/services"} />
                 </div>
             </div>
             <div id="menu" className="w-full sm:text-20 text-sm flex justify-end sm:pr-40 custon-border">
