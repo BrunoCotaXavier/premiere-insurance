@@ -72,7 +72,7 @@ export default function About() {
                         <p className="p-1 text-15 primary-color">116 Union St, Clinton, MA 01510, USA</p>
                     </div>
                 </div>
-                <div className="w-full sm:flex sm:justify-end">
+                <div className="w-full flex sm:justify-end justify-center">
                     <iframe
                         className="drop-shadow sm:w-600 max-w"
                         height={300}
