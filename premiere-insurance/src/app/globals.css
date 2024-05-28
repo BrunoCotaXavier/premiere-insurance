@@ -24,12 +24,23 @@ a {
   }
 }
 
+.icon-primary-color {
+  fill: #5D5D5D;
+}
+.icon-white {
+  fill: #ffffff;
+}
+
 .animate-scroll {
   animation: scroll 40s linear infinite;
 }
 
 .drop-shadow {
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text-with-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* offsetX, offsetY, blurRadius, color */
 }
 
 .background-image {
@@ -41,6 +52,16 @@ a {
   position: absolute;
   margin-bottom: 300px;
   opacity: 70%;
+}
+
+.background-image-service {
+  background-image: url('/images/background-service.png');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 234px;
+  position: absolute;
+  z-index: 0;
 }
 
 @media (max-width: 600px) {
@@ -139,6 +160,13 @@ a {
 
 .thrid-custon-border-r {
   border-right: #737373;
+  border-radius: 5px;
+  border-style: solid;
+  position: relative;
+}
+
+.thrid-custon-border-r-white {
+  border-right: #ffffff;
   border-radius: 5px;
   border-style: solid;
   position: relative;
