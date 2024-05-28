@@ -34,10 +34,10 @@ export default function Header() {
             </div>
             <div className="gradient-right pt-5 p-5 sm:pl-40 flex items-center">
                 <div className="sm:pr-10 pr-5 pt-5">
-                    <img src="/images/Logo_SemFundo.png" className="sm:w-full sm:h-auto w-10 h-auto" />
+                    <img src="/images/Logo_SemFundo.png" className="sm:w-full sm:h-auto w-50 h-auto" />
                 </div>
                 <div>
-                    <h1 className="sm:text-50 text-25 text-white">PREMIERE INSURANCE</h1>
+                    <h1 className="sm:text-50 text-25 text-white font-bold sm:font-thin">PREMIERE INSURANCE</h1>
                     <h2 className="text-white pb-2">Serving the entire state of Massachusetts </h2>
                     <PrimaryButton url={"/services"} />
                 </div>
