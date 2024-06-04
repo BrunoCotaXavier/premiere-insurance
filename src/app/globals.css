@@ -9,6 +9,7 @@ h2,
 h3,
 h4,
 Link,
+label,
 a {
   font-family: "Lusitana", serif;
   font-weight: 400;
@@ -19,6 +20,7 @@ a {
   0% {
     transform: translateX(0%);
   }
+
   100% {
     transform: translateX(-100%);
   }
@@ -27,6 +29,7 @@ a {
 .icon-primary-color {
   fill: #5D5D5D;
 }
+
 .icon-white {
   fill: #ffffff;
 }
@@ -40,7 +43,8 @@ a {
 }
 
 .text-with-shadow {
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* offsetX, offsetY, blurRadius, color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  /* offsetX, offsetY, blurRadius, color */
 }
 
 .background-image {
@@ -79,6 +83,7 @@ a {
   .background-image {
     height: 392px;
   }
+
   .animate-scroll {
     animation: scroll 15s linear infinite;
   }
@@ -111,6 +116,9 @@ a {
   font-style: normal;
 }
 
+label {
+  color: #5D5D5D;
+}
 
 .primary-color {
   color: #5D5D5D;
@@ -120,12 +128,21 @@ a {
   color: #00D408;
 }
 
+.danger-color {
+  color: #D41010;
+}
+
+
+.bg-primary-color {
+  background-color: #5D5D5D;
+}
+
 .bg-second-color {
   background-color: #00D408;
 }
 
-.bg-primary-color {
-  background-color: #5D5D5D;
+.bg-third-color {
+  background-color: #F8F8F8;
 }
 
 .btn-primary {

@@ -1,9 +1,9 @@
+import Form from "@/components/form";
 
 export default function Home() {
-    return (
-      <div>
-          Ola Home
-      </div>
-    );
-  }
-  
+  return (
+    <div>
+      <Form product={"HOME"}/>
+    </div>
+  );
+}
