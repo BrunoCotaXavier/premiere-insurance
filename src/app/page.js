@@ -10,7 +10,7 @@ export default function IndexApp() {
       <div className="sm:pt-60 pt-40"></div>
       <div className="glass flex flex-row items-center justify-center w-full">
         <div>
-          <h1 className="sm:text-40 text-30 font-bold">BOSTON INSURANCE</h1>
+          <h1 className="sm:text-30 text-25 font-bold">MASSACHUSETTS INSURANCE</h1>
           <h2 className="sm:text-25 text-15">Best coverage, grate rates</h2>
         </div>
         <div className="flex flex-col p-5">
@@ -24,11 +24,11 @@ export default function IndexApp() {
       </div>
       <div className="bg-white h-full p-5 mt-20 w-full flex items-center justify-center">
         <div className="max-w-xl pb-10">
-          <h1 className="text-30 primary-color bold">Boston Brokerage Insurance Associates Local, Independent, Trusted.</h1>
+          <h1 className="text-30 primary-color bold">Massachusetts Brokerage Insurance Associates Local, Independent, Trusted.</h1>
           <span className="text-15">
-            Boston Brokerage Insurance Associates delivers a unique experience,
+            Massachusetts Brokerage Insurance Associates delivers a unique experience,
             with a belief that every customer deserves our focused attention and personal service.
-            Our Boston-based auto insurance agency provides all types of insurance coverage.
+            Our Massachusetts-based auto insurance agency provides all types of insurance coverage.
           </span>
         </div>
       </div>
