@@ -1,9 +1,9 @@
+import Form from "@/components/form";
 
 export default function Business() {
-    return (
-      <div>
-          Ola Business
-      </div>
-    );
-  }
-  
+  return (
+    <div>
+      <Form product={"BUSINESS"} />
+    </div>
+  );
+}
