@@ -11,22 +11,19 @@ export default function About() {
                 </div>
             </div>
             <div className="p-10 sm:pt-20 sm:pl-40 sm:pr-40">
-                <h1 className="text-30 primary-color second-custon-border w-max">10 years history in Boston</h1>
+                <h1 className="text-30 primary-color second-custon-border w-max">5 years history in Boston</h1>
                 <br />
                 <span className="primary-color sm:text-20">
-                    With over 10 years in the insurance industry, Business owners need reliable insurance coverage, too.
-                    California Brokerage Insurance Associates (CBIA), is one of the top auto insurance brokerage companies
-                    in the region for fleet and other company vehicles. If something were to happen to your company’s
-                    vehicles while on the road, you need to know you’re protected. Our brokers take the time to research all the commercial
-                    auto insurance companies in California to find you the best coverage at the most reasonable rates.
+
+                    With extensive experience spanning over 5 years in the insurance sector, we understand the importance of reliable insurance coverage for business owners. Massachusetts Brokerage Insurance Associates (MBIA) stands out as one of the premier auto insurance brokerage firms in the region, especially for fleet and company vehicles. Ensuring your company’s vehicles are protected on the road is paramount. Our dedicated brokers meticulously research all commercial auto insurance companies in Massachusetts to secure the optimal coverage at the most competitive rates.
+                    <br />
+                    <br />
+                    Join us and become a part of our legacy! At MBIA, we recognize the crucial need for dependable insurance coverage for businesses. As one of the leading auto insurance brokerage firms in the region, we specialize in safeguarding fleet and company vehicles. Rest assured, if any untoward incident occurs on the road, your assets are protected. Our committed brokers meticulously analyze various commercial auto insurance companies in Massachusetts to secure the best coverage options at the most reasonable rates.
                 </span>
                 <br />
                 <br />
                 <span className="primary-color sm:text-20">
-                    Come be Part of our History! Business owners need reliable insurance coverage, too. California Brokerage Insurance Associates (CBIA),
-                    is one of the top auto insurance brokerage companies in the region for fleet and other company vehicles. If something were to happen
-                    to your company’s vehicles while on the road, you need to know you’re protected. Our brokers take the time to research all the commercial
-                    auto insurance companies in California to find you the best coverage at the most reasonable rates.
+                    At Massachusetts Brokerage Insurance Associates, our mission is to provide you with quality insurance coverage along with exceptional professional service and to foster valuable, long-term relationships. As independent insurance agents in Massachusetts, we conduct thorough research into the rates and coverages offered by top insurance companies to ensure you get the best rates and plans tailored to your needs. We take care of the entire insurance purchasing and comparison process, saving you time and money!
                 </span>
             </div>
             <div className="w-full p-10 flex sm:pl-40 sm:pr-40 flex pb-10 flex sm:flex-row flex-col">

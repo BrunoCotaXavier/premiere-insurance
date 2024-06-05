@@ -1,3 +1,4 @@
+import Form from "@/components/form";
 import Link from "next/link";
 
 export default function Contact() {
@@ -14,7 +15,7 @@ export default function Contact() {
                 </iframe>
             </div>
             <div className="flex sm:flex-row flex-col justify-around w-full">
-                <div className="pb-10 p-10 w-full">
+                <div className="pb-10 pt-10 pl-10 pr-10 w-full">
                     <h1 className="text-30 primary-color">Contact Us</h1>
                     <div className="flex">
                         <hr className="green-custon-border w-2/3" />
@@ -38,7 +39,16 @@ export default function Contact() {
                                 fill="#5D5D5D"
                             />
                         </svg>
-                        <p className="p-1 text-15 primary-color">197-846-77505</p>
+                        <p className="p-1 text-15 primary-color">978-733-1548</p>
+                    </div>
+                    <div className="flex w-full justify-start">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.62 10.79C8.06 13.62 10.38 15.94 13.21 17.38L15.41 15.18C15.69 14.9 16.08 14.82 16.43 14.93C17.55 15.3 18.75 15.5 20 15.5C20.2652 15.5 20.5196 15.6054 20.7071 15.7929C20.8946 15.9804 21 16.2348 21 16.5V20C21 20.2652 20.8946 20.5196 20.7071 20.7071C20.5196 20.8946 20.2652 21 20 21C15.4913 21 11.1673 19.2089 7.97918 16.0208C4.79107 12.8327 3 8.50868 3 4C3 3.73478 3.10536 3.48043 3.29289 3.29289C3.48043 3.10536 3.73478 3 4 3H7.5C7.76522 3 8.01957 3.10536 8.20711 3.29289C8.39464 3.48043 8.5 3.73478 8.5 4C8.5 5.25 8.7 6.45 9.07 7.57C9.18 7.92 9.1 8.31 8.82 8.59L6.62 10.79Z"
+                                fill="#5D5D5D"
+                            />
+                        </svg>
+                        <p className="p-1 text-15 primary-color">978-221-0139</p>
                     </div>
                     <h2 className="text-20 primary-color">- Visit Us</h2>
                     <div className="flex w-full justify-start">
@@ -57,32 +67,19 @@ export default function Contact() {
                                 fill="#5D5D5D"
                             />
                         </svg>
-                        <p className="p-1 text-15 primary-color">116 Union St, Clinton, MA 01510, USA</p>
+                        <p className="p-1 text-15 primary-color">7 summer st #19 - Chelmsford MA 01824s</p>
                     </div>
                 </div>
-                <div className="pb-10 p-10 w-full">
-                    <h1 className="text-30 primary-color">Quick Links</h1>
-                    <div className="flex">
-                        <hr className="green-custon-border w-2/3" />
-                        <hr className="second-custon-border w-full" />
+                <div className="pb-10 w-full">
+                    <div className="p-10">
+                        <h1 className="text-30 primary-color">Contact now</h1>
+                        <div className="flex">
+                            <hr className="green-custon-border w-2/3" />
+                            <hr className="second-custon-border w-full" />
+                        </div>
                     </div>
-                    <div className="pt-2">
-                        <Link href="/" className="flex w-full justify-between primary-color">
-                            <p className="p-1 text-15">Home</p>
-                        </Link>
-                        <hr className="thrid-custon-border" />
-                        <Link href="/about" className="flex w-full justify-between primary-color">
-                            <p className="p-1 text-15">Abou Us</p>
-                        </Link>
-                        <hr className="thrid-custon-border" />
-                        <Link href="/contact" className="flex w-full justify-between primary-color">
-                            <p className="p-1 text-15">Contact Us</p>
-                        </Link>
-                        <hr className="thrid-custon-border" />
-                        <Link href="/services" className="flex w-full justify-between primary-color">
-                            <p className="p-1 text-15">Services</p>
-                        </Link>
-                        <hr className="thrid-custon-border" />
+                    <div className="sm:pl-10 sm:pr-10">
+                        <Form product={'Contact'}/>
                     </div>
                 </div>
             </div>

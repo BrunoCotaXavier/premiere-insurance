@@ -163,6 +163,15 @@ label {
   padding-right: 20px;
 }
 
+.btn-third {
+  padding: 2px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #5D5D5D;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 .custon-border {
   border-bottom-width: 8px;
   border-color: #5D5D5D;
