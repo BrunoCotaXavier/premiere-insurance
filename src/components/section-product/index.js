@@ -16,7 +16,7 @@ export default function SectionProduct() {
                 <img className="w-full h-auto" src="/images/home.png" />
                 <h1 className="pt-3 sm:font-thin font-bold text-30 primary-color">Home Insurance</h1>
                 <span className="text-20 primary-color pb-5">
-                    Homeowner insurance rates in Massachusetts can fluctuate significantly. We ensure you receive adequate coverage at the most competitive rates possible.
+                    Homeowners insurance rates in Massachusetts can fluctuate significantly. We ensure you receive adequate coverage at the most competitive rates possible.
                 </span>
                 <SecondButton url={"/services/home"} />
             </div>
