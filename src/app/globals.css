@@ -26,6 +26,22 @@ a {
   }
 }
 
+.balance {
+  animation: balance 3s normal;
+}
+
+@keyframes balance {
+
+  0% {
+    transform: rotate(35deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
 .icon-primary-color {
   fill: #5D5D5D;
 }
@@ -81,7 +97,7 @@ a {
 
 @media (max-width: 600px) {
   .background-image {
-    height: 392px;
+    height: 478px;
   }
 
   .animate-scroll {
@@ -159,6 +175,15 @@ label {
   background-color: #ffffff;
   border-radius: 5px;
   color: #5D5D5D;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.btn-third {
+  padding: 2px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #5D5D5D;
   padding-left: 20px;
   padding-right: 20px;
 }

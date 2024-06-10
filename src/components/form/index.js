@@ -33,18 +33,8 @@ export default function Form({ product }) {
 
     return (
         <div className="bg-third-color">
-            <div className="relative">
-                <div className="background-image-service"></div>
-                <div className="flex flex-col items-center justify-center relative z-10 sm:pt-20 pt-10">
-                    <h1 className="text-40 text-white text-center text-with-shadow">INSURANCE PRODUCTS</h1>
-                    <div className="flex text-30 text-white p-1">
-                        <p className="p-1 text-with-shadow">{product} INSURANCE</p>
-                    </div>
-                </div>
-            </div>
             <section title="Form auto quote" className="flex items-center justify-center p-5">
                 <div className="flex flex-col items-start justify-center w-600">
-                    <h1 className="text-30 primary-color second-custon-border w-max mb-5 pt-20">Personal Information</h1>
                     <form onSubmit={handleSubmit} className="p-1 w-full">
                         <label>First & Last Name <span className="danger-color">*</span></label>
                         <div className="pb-5">
@@ -117,7 +107,7 @@ export default function Form({ product }) {
                         </div>
                         <input type="type" name="type" defaultValue={product} className="hidden" />
                         <hr class="border-gray-500 border-t-1" />
-                        <button type="submit" className="btn-primary w-full mb-10 mt-5">Submit</button>
+                        <button type="submit" className="btn-primary w-full mb-5 mt-5">Submit</button>
                     </form>
                 </div>
             </section>

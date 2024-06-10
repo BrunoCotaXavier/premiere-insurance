@@ -28,9 +28,9 @@ export default function Header() {
             <div className="sm:text-15 text-10 bg-primary-color flex justify-around text-white sm p-2">
                 <Link href="/services/auto">AUTO QUOTE</Link>
                 <p className="border-r" ></p>
-                <Link href="/services/home">HOMEOWNER QUOTE</Link>
+                <Link href="/services/home">HOMEOWNERS QUOTE</Link>
                 <p className="border-r" ></p>
-                <Link href="/services/business">BUSSINES QUOTE</Link>
+                <Link href="/services/business">BUSINESS QUOTE</Link>
             </div>
             <div className="gradient-right pt-5 p-5 sm:pl-40 flex items-center">
                 <div className="sm:pr-10 pr-5 pt-5">
@@ -38,7 +38,7 @@ export default function Header() {
                 </div>
                 <div>
                     <h1 className="sm:text-50 text-25 text-white font-bold sm:font-thin">PREMIERE INSURANCE</h1>
-                    <h2 className="text-white pb-2">Serving the entire state of Massachusetts </h2>
+                    <h2 className="text-white pb-2">Serving the entire state of Massachusetts</h2>
                     <PrimaryButton url={"/services"} />
                 </div>
             </div>
